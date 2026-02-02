@@ -1,4 +1,6 @@
 package edu.narxoz.galactic.drones;
+import edu.narxoz.galactic.drones.DroneStatus;
+import edu.narxoz.galactic.task.TaskState;
 
 public abstract class Drone {
     private String id;

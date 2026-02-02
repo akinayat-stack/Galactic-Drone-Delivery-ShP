@@ -1,2 +1,2 @@
-package  edu.narxoz.galactic.dispatcher;
+package edu.narxoz.galactic.dispatcher;
 public record Result(boolean ok, String reason) {} //Java 16+
