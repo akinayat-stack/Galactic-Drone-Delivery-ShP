@@ -1,4 +1,4 @@
-package edu.narxoz.galactic;
+package edu.narxoz.galactic.demo;
 import edu.narxoz.galactic.bodies.Planet;
 import edu.narxoz.galactic.cargo.Cargo;
 import edu.narxoz.galactic.drones.HeavyDrone;

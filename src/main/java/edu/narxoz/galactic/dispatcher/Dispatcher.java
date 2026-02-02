@@ -1,5 +1,13 @@
 package edu.narxoz.galactic.dispatcher;
-public class Dispatcher{
+
+import edu.narxoz.galactic.drones.Drone;
+import edu.narxoz.galactic.drones.DroneStatus;
+import edu.narxoz.galactic.task.DeliveryTask;
+import edu.narxoz.galactic.task.TaskState;
+import edu.narxoz.galactic.dispatcher.Result;
+
+public class Dispatcher {
+
     public Result assignTask(DeliveryTask task, Drone drone) {
         if (task == null || drone == null) {
             return new Result(false, "task or drone is null");
@@ -18,6 +26,7 @@ public class Dispatcher{
         drone.setStatus(DroneStatus.IN_FLIGHT);
         return new Result(true, "");
     }
+
     public Result completeTask(DeliveryTask task) {
         if (task == null) {
             return new Result(false, "task is null");

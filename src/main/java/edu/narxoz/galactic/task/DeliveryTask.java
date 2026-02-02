@@ -34,16 +34,16 @@ public class DeliveryTask{
     public Drone getAssignedDrone(){
         return assignedDrone;
     }
-     double estimateTime() {
+    public double estimateTime() {
         if (assignedDrone == null || assignedDrone.speedKmPerMin() <= 0) {
             throw new IllegalStateException("invalid");
         }
         return origin.distanceTo(destination) / assignedDrone.speedKmPerMin();
     }
-    void setState(TaskState state) {
+    public void setState(TaskState state) {
         this.state = state;
     }
-    void setAssignedDrone(Drone drone) {
+    public void setAssignedDrone(Drone drone) {
         this.assignedDrone = drone;
     }  
 

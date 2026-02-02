@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "edu.narxoz.galactic.Demo",
+            "projectName": "GalacticDroneDelivery"
+        }
+    ]
+}
