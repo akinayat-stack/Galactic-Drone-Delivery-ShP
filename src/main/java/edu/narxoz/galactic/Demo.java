@@ -16,7 +16,8 @@ public class Demo{
         DeliveryTask t1 = new DeliveryTask(earth, mars, c1);
         DeliveryTask t2 = new DeliveryTask(earth, mars, c2);
         Dispatcher d = new Dispatcher();
-        System.out.println("assign light cargo to b: " + d.assignTask(t2, hd).reason());
+        System.out.println("assign light cargo to ld: " + d.assignTask(t1, ld).reason());
+        System.out.println("assign light cargo to hd: " + d.assignTask(t2, hd).reason());
         System.out.println("delivery time: " + t2.estimateTime() + " minutes");
         System.out.println("completing task: " + d.completeTask(t2).reason());
         System.out.println("final drone status: " + hd.getStatus());
