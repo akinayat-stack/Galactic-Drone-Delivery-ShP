@@ -9,5 +9,9 @@ C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\ed
 C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\drones\DroneStatus.java
 C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\drones\HeavyDrone.java
 C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\drones\LightDrone.java
+C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\factory\DroneFactory.java
+C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\factory\DroneType.java
+C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\factory\GalacticFactory.java
+C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\factory\TrainingGalaxyFactory.java
 C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\task\DeliveryTask.java
 C:\Users\Admin\OneDrive\Desktop\ShP\Galactic-Drone-Delivery-ShP\src\main\java\edu\narxoz\galactic\task\TaskState.java

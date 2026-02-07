@@ -5,9 +5,14 @@ edu\narxoz\galactic\drones\HeavyDrone.class
 edu\narxoz\galactic\bodies\Planet.class
 edu\narxoz\galactic\dispatcher\Dispatcher.class
 edu\narxoz\galactic\task\TaskState.class
+edu\narxoz\galactic\factory\TrainingGalaxyFactory.class
 edu\narxoz\galactic\drones\LightDrone.class
+edu\narxoz\galactic\factory\DroneType.class
+edu\narxoz\galactic\factory\DroneFactory$1.class
 edu\narxoz\galactic\dispatcher\Result.class
 edu\narxoz\galactic\bodies\CelestialBody.class
+edu\narxoz\galactic\factory\DroneFactory.class
 edu\narxoz\galactic\bodies\SpaceStation.class
 edu\narxoz\galactic\cargo\Cargo.class
 edu\narxoz\galactic\Demo.class
+edu\narxoz\galactic\factory\GalacticFactory.class
